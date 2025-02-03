@@ -58,3 +58,11 @@ console.log(map1);
 
 console.log(dogsArray.join(''));
 
+//opgave 7 
+
+let fruitsArray = ["Banana", "Orange", "Pineapple", "Mango", "Plum", "Apricot"]
+
+console.log(fruitsArray.indexOf('Mango'));
+
+console.log(fruitsArray.indexOf('Blåbær'));
+
