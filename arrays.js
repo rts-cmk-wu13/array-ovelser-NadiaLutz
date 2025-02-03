@@ -66,3 +66,7 @@ console.log(fruitsArray.indexOf('Mango'));
 
 console.log(fruitsArray.indexOf('Blåbær'));
 
+//opgave 8 
+
+console.log(dogsArray.indexOf('Polly'))
+console.log(dogsArray.slice('3'))
