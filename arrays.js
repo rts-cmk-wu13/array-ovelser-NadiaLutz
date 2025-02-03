@@ -33,6 +33,9 @@ console.log(catsArray);
 
 let dogsArray = ["Barney", "Molly", "Baxter", "Polly", "Buddy", "Suki", "Watson"];
 
-console.log(dogsArray.includes("Baxter"));
-// Expected output: true
+console.log(dogsArray.includes("Trixie"));
 
+console.log(dogsArray.includes("Baxter"));
+
+
+//opgave 4
