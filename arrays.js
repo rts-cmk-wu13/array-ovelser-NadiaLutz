@@ -8,3 +8,14 @@ document.addEventListener("DOMContentLoaded", function() {
 
 }) // ends DOMContentLoaded
 
+//opgave 1 
+
+let numbersArray = [12, 4, 45, 17, 2, 26, 7, 55, 48, 32, 21]
+
+numbersArray.forEach(function(number) {
+    if (number > 20) {
+        console.log(number);
+    } else {
+        console.log(number + " is less than 20");
+    }
+});
