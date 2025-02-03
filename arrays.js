@@ -28,3 +28,11 @@ const count = catsArray.push('Sniffles');
 console.log(count);
 
 console.log(catsArray);
+
+//opgave 3 
+
+let dogsArray = ["Barney", "Molly", "Baxter", "Polly", "Buddy", "Suki", "Watson"];
+
+console.log(dogsArray.includes("Baxter"));
+// Expected output: true
+
