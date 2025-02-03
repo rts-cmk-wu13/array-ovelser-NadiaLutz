@@ -66,6 +66,7 @@ console.log(fruitsArray.indexOf('Mango'));
 
 console.log(fruitsArray.indexOf('Blåbær'));
 
+
 //opgave 8 
 
 
@@ -78,3 +79,13 @@ if (index !== -1) {
 }
 
 console.log(dogsArray);
+
+//opgave 9 
+
+const initialValue = 0;
+const sumWithInitial = numbersArray.reduce(
+  (accumulator, currentValue) => accumulator + currentValue,
+  initialValue,
+);
+
+console.log(sumWithInitial);
