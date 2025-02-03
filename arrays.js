@@ -19,3 +19,12 @@ numbersArray.forEach(function(number) {
         console.log(number + " is less than 20");
     }
 });
+
+//opgave 2 
+
+let catsArray = ["Ollie", "Sophie", "Salem", "Tiger", "Binx", "Pumpkin", "Penny", "Lenny"];
+
+const count = catsArray.push('Sniffles');
+console.log(count);
+
+console.log(catsArray);
