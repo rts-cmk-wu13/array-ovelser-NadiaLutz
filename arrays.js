@@ -24,7 +24,7 @@ numbersArray.forEach(function(number) {
 
 let catsArray = ["Ollie", "Sophie", "Salem", "Tiger", "Binx", "Pumpkin", "Penny", "Lenny"];
 
-const count = catsArray.push('Sniffles');
+let count = catsArray.push('Sniffles');
 console.log(count);
 
 console.log(catsArray);
@@ -49,7 +49,7 @@ console.log(catsArray.includes("Salem"));
 //opgave 5
 
 
-const map1 = numbersArray.map((x) => x * 3);
+let map1 = numbersArray.map((x) => x * 3);
 
 console.log(map1);
 
@@ -68,5 +68,13 @@ console.log(fruitsArray.indexOf('Blåbær'));
 
 //opgave 8 
 
-console.log(dogsArray.indexOf('Polly'))
-console.log(dogsArray.slice('3'))
+
+let index = dogsArray.indexOf('Polly');
+
+
+if (index !== -1) {
+  
+    dogsArray.splice(index, 1);
+}
+
+console.log(dogsArray);
