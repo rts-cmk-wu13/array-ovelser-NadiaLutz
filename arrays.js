@@ -7,3 +7,4 @@ document.addEventListener("DOMContentLoaded", function() {
     // --- Løs opgaverne herunder --- 
 
 }) // ends DOMContentLoaded
+
