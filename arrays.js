@@ -44,3 +44,12 @@ console.log(dogsArray.includes("Baxter"));
 console.log(catsArray.includes("Bagheera"));
 
 console.log(catsArray.includes("Salem"));
+
+
+//opgave 5
+
+
+const map1 = numbersArray.map((x) => x * 3);
+
+console.log(map1);
+
