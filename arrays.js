@@ -39,3 +39,8 @@ console.log(dogsArray.includes("Baxter"));
 
 
 //opgave 4
+
+
+console.log(catsArray.includes("Bagheera"));
+
+console.log(catsArray.includes("Salem"));
