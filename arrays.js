@@ -53,3 +53,8 @@ const map1 = numbersArray.map((x) => x * 3);
 
 console.log(map1);
 
+
+//opgave 6 
+
+console.log(dogsArray.join(''));
+
